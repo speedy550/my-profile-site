@@ -199,7 +199,7 @@ section {
     }
 
     section {
-        margin: 1.5rem 0;
+        margin: 10.5rem 0;
         padding: 1rem;
     }
 
@@ -209,9 +209,9 @@ section {
 
     .social-links {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 0.5rem;
+        gap: 1.4rem;
     }
 
     .buttons a {
@@ -222,7 +222,7 @@ section {
     }
 
     footer {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         padding: 1rem 0;
     }
 }
