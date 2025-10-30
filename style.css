@@ -1,4 +1,4 @@
-/*======= Speedy's Stylish Profile ======= */
+/*---------------- Speedy's Stylish Profile ---------------- */
 body {
     font-family: 'poppins', sans-serif;
     background: #f2f5f9;
@@ -86,7 +86,7 @@ footer {
     margin-top: 30px;
 }
 
-/*======= Resposive Design =======*/
+/*---------------- Resposive Design ----------------*/
 @media (max-width: 600px) {
     .profile-pic {
         width: 100px;
@@ -103,7 +103,7 @@ footer {
     }
 }
 
-/* ======= Buttons =======*/
+/* ---------------- Buttons ----------------*/
 .buttons {
     display: flex;
     justify-content: center;
@@ -131,9 +131,9 @@ footer {
 
 /* Download CV button */
 .btn.cv {
-    background: #f2f5f9;
-    border: 2px solid #00b4d8;
-    color: #0078d7;
+    background: #e8eef5;
+    border: 10px solid #00b4d8;
+    color: #5563cf;
 }
 
 .btn.cv:hover {
@@ -141,18 +141,18 @@ footer {
     color: #f2f5f9;
 }
 
-/* ======= Icon Stylish ====== */
+/* ---------- Icon Stylish ---------- */
 .btn i {
     margin-right: 8px;
 }
 
-/*======= Glowing Buttons Effect =======*/
+/*------------- Glowing Buttons Effect ------------*/
 .btn:hover {
     box-shadow: 0 0 15px rgba(0, 184, 255, 0.8);
     transition: scale(1.05);
 }
 
-/* ======= Fade-in effect ======= */
+/* ----------- Fade-in effect ---------- */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -167,4 +167,16 @@ footer {
 
 section {
     animation: fadeIn 1s ease-in-out;
+}
+
+/* ---------- Reveak Animation ------------*/
+.reveal {
+    transform: translateY(40px);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
