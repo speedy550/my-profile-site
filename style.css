@@ -1,16 +1,16 @@
 /*---------------- Speedy's Stylish Profile ---------------- */
 body {
     font-family: 'poppins', sans-serif;
-    background: #f2f5f9;
+    background: #fefeff;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #1c1a1a;
 }
 
 /* Header section */
 header {
     background: linear-gradient(135deg, #0078d7);
-    color: #f2f5f9;
+    color: #f2f9f4;
     text-align: center;
     padding: 50px 20px;
 }
@@ -39,7 +39,7 @@ header {
 
 /* Content Section */
 section {
-    background: white;
+    background: rgb(245, 239, 239);
     width: 85%;
     max-width: 800px;
     padding: 8px;
