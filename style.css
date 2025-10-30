@@ -169,14 +169,60 @@ section {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* ---------- Reveak Animation ------------*/
-.reveal {
-    transform: translateY(40px);
-    opacity: 0;
-    transition: all 0.6s ease;
-}
+/* --- MOBILE VIEW (for phones and small screens) --- */
+@media (max-width: 600px) {
+    body {
+        padding: 0 1rem;
+        font-size: 16px;
+    }
 
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
+    header {
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    section {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+
+    ul {
+        padding-left: 1.2rem;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .buttons a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 1rem 0;
+    }
 }
